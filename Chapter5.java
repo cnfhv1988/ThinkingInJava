@@ -125,6 +125,9 @@ initialize j second time
 initialize Chapter5
 hello
 world
+Character
+Integer
+Long
 4
 null
  */
