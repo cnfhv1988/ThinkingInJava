@@ -1,13 +1,14 @@
-package cn.machao.chapter7;
+package cn.machao.chapter7and8;
 
 public class Base {
 
-    private int i;
+    public int i = 0;
 
-    Base(int i) {
-
+    Base() {
+        method(i); //will call method of Inherit, and i will be assigned to 0.
     }
 
+    public Base method3() {return this;}
 
     private void method2() {
         System.out.println("Base private method2.");
