@@ -18,6 +18,8 @@ public class Chapter3 {
         char a = 'a', b = 'b';
         //a = a * b; // a * b will be promoted to int.
         System.out.println(a * b);
+
+        StaticMember s = new StaticMember();
     }
 
     public static void UseRandom() {
