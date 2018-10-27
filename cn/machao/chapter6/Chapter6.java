@@ -1,8 +1,8 @@
 
-package cn.machao;
+package cn.machao.chapter6;
 
 
-import cn.machao.children.ChildPackage;
+import cn.machao.chapter6.chapter6.children.ChildPackage;
 
 public class Chapter6 {
 
