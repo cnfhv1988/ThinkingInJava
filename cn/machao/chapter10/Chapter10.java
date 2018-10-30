@@ -27,6 +27,8 @@ public class Chapter10 {
         }
     } // Static inner class;
 
+    class BaseInner {}
+
     public Inner getInner() {
         return new Inner();
     }
@@ -105,4 +107,11 @@ class Base{
 
 interface IBase {
     int getI();
+}
+
+class InheritInner extends Chapter10.BaseInner {
+
+    InheritInner(Chapter10 ch10) {
+        ch10.super(); //outer class of BaseInner must be initialized.
+    }
 }
